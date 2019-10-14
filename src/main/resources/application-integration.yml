@@ -3,3 +3,4 @@ server:
 eureka:
   instance:
     hostname: localhost
+    
