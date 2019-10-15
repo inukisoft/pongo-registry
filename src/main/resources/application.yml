@@ -3,6 +3,9 @@ server:
 eureka:
   instance:
     hostname: localhost
+  server:
+    enableSelfPreservation: false   # esto hace que eureka des registre las instancias no válidas por su cuenta.
   client:
     registerWithEureka: false
     fetchRegistry: false
+    
